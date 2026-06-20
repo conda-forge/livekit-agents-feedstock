@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 1.6.1
+  version: 1.6.2
 
 package:
   name: livekit-agents
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/l/livekit-agents/livekit_agents-${{ version }}.tar.gz
-    sha256: c1d4f0c46b5e886b7576e107471dadd19e4060915fe0688d0605d866de347816
+    sha256: 650b83534441c5efeaa1091ec6a39c5769adb83f02c9fb6a27571627ed93dbc3
   - url: https://raw.githubusercontent.com/livekit/agents/refs/tags/livekit-agents%40${{ version }}/LICENSE
     sha256: c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4
     file_name: LICENSE
