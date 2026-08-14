@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 1.6.9
+  version: 1.6.10
 
 package:
   name: livekit-agents
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/l/livekit-agents/livekit_agents-${{ version }}.tar.gz
-    sha256: 94b5d6b97c070ee5c6731118e99162f25f13597f8d6a95a80d9c62492907cf8e
+    sha256: 1bcdcca95414860a305f2de05ff14964e8a7e2e6d63888299f3c8b5d9ed02827
   - url: https://raw.githubusercontent.com/livekit/agents/refs/tags/livekit-agents%40${{ version }}/LICENSE
     sha256: c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4
     file_name: LICENSE
@@ -48,7 +48,7 @@ requirements:
     - opentelemetry-sdk >=1.39.0,<1.45
     - opentelemetry-exporter-otlp >=1.39.0,<1.45
     - prometheus_client >=0.22
-    - openai >=2
+    - openai >=2,<3
     - aiofiles >=24
     - json-repair ==0.60.1
     - pyyaml >=6.0.3
