@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 1.8.9
+  version: 1.8.10
 
 package:
   name: livekit-agents
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/l/livekit-agents/livekit_agents-${{ version }}.tar.gz
-    sha256: 5fd70b90accb9798e3a9a9b983c3e02cd564a54f1b995755d7a2aac21f50c92e
+    sha256: 5ab720269160ad2ffe9055b8f8f558b5d74918ce4b8fbc85f121d64d13c08ae4
   - url: https://raw.githubusercontent.com/livekit/agents/refs/tags/livekit-agents%40${{ version }}/LICENSE
     sha256: c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4
     file_name: LICENSE
@@ -29,7 +29,7 @@ requirements:
     - certifi >=2025.6.15
     - livekit ==1.1.21
     - livekit-api >=1.2.0,<2
-    - livekit-protocol >=1.1.28,<2
+    - livekit-protocol >=1.1.29,<2
     - livekit-blingfire >=1.1,<2.dev0,<2
     - protobuf >=3
     - pyjwt >=2.0
